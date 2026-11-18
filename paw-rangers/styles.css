@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Boldonse&display=swap');
 
+
+body {
+    background-color: #F5F5DC;
+}
+
+.body-text{
+    font-family: 'ABeeZee', Courier, monospace;
+    color: #502419;
+    font-size: 16px;
+}
+
+.heading-text{
+    font-family: 'Boldonse', Courier, monospace;
+    color: #502419;
+    letter-spacing: 4%;
+}
+
+
 .navbar{
     background-color: #82A375;
     border-radius: 0 0 25px 25px;
@@ -12,23 +30,30 @@ dialog {
 
 }
 
-body {
-    background-color: #F5F5DC;
+main {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
 }
 
-.body-text{
-    font-family: 'ABeeZee', Courier, monospace;
-    font-size: 16px;
+.navbar .container-fluid,
+footer .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-.heading-text{
-    font-family: 'Boldonse', Courier, monospace;
-    letter-spacing: 4%;
-}
-
-.fg-2{
+.footer-text{
     color: #B5B5B5;
     font-size: 12px;
+}
+
+.arrow {
+    color: #502419;
+    font-size: 40px;
+}
+
+.size-select {
+    width: 70px;
+    border-color: #82A375;
 }
 
 footer {
