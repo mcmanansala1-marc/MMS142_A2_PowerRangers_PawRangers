@@ -7,13 +7,13 @@ body {
 
 .body-text{
     font-family: 'ABeeZee', Courier, monospace;
-    color: #502419;
+    color: #363636;
     font-size: 16px;
 }
 
 .heading-text{
     font-family: 'Boldonse', Courier, monospace;
-    color: #502419;
+    color: #363636;
     letter-spacing: 4%;
 }
 
@@ -31,19 +31,14 @@ dialog {
 }
 
 main {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .navbar .container-fluid,
 footer .container-fluid {
     padding-left: 2rem;
     padding-right: 2rem;
-}
-
-.footer-text{
-    color: #B5B5B5;
-    font-size: 12px;
 }
 
 .arrow {
@@ -54,6 +49,34 @@ footer .container-fluid {
 .size-select {
     width: 70px;
     border-color: #82A375;
+}
+
+
+
+
+.terms-section {
+    margin-bottom: 1.5rem;
+}
+
+.terms-section h2 {
+    margin-bottom: 0.75rem;
+}
+
+.terms-section h3 {
+    margin-top: 1rem;
+}
+
+.terms-title {
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+.footer-text{
+    color: #B5B5B5;
+    font-size: 12px;
 }
 
 footer {
