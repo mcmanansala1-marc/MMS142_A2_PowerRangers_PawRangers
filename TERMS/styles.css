@@ -1,33 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Boldonse&display=swap');
 
-:root {
-  --green: #82A375;
-  --brown: #502419;
-  --cream: #FFEDDA;
-  --text: #363636;
-  --grey: #B5B5B5;
-  --display: "Boldonse", sans-serif;
-  --body: "ABeeZee", sans-serif;
-}
 
 body {
     background-color: #ffffff;
 }
 
-.heading-text {
-    font-family: var(--display);
-    color: var(--text);
-}
-
 .body-text{
-    font-family: var(--body);
-    color: var(--text);
+    font-family: 'ABeeZee', Courier, monospace;
+    color: #363636;
     font-size: 20px;
 }
 
 h1 {
-    font-family: var(--display);
-    color: var(--text);
+    font-family: 'Boldonse', Courier, monospace;
+    color: #363636;
     font-weight: normal;
     letter-spacing: -.03em;
     font-size: 48px;
