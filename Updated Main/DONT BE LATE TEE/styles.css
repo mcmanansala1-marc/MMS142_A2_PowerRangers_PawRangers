@@ -166,7 +166,7 @@ footer .container-fluid {
   font-family: var(--display);
   font-weight: normal;
   letter-spacing: -.04em;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 1;
   margin: 48px 0 18px;
 }
@@ -176,7 +176,7 @@ footer .container-fluid {
   border-radius: 14px;
   padding: 34px 40px 30px 64px;
   box-shadow: 0 6px 18px rgba(78, 35, 24, .06);
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.35;
 }
 
@@ -216,7 +216,7 @@ footer .container-fluid {
 
 .crumbs {
   font-style: italic;
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 2px;
 }
 
@@ -241,7 +241,7 @@ h1, h2, h3 {
   font-family: var(--display);
   font-weight: normal;
   letter-spacing: -.04em;
-  font-size: 40px;
+  font-size: 34.5px;
   line-height: 1.5;
   margin: 25px 0px 0px;
   text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.651), 4px 5px 7px rgba(10, 10, 10, 0.158);
@@ -262,7 +262,7 @@ h1, h2, h3 {
   background: none;
   border: 0;
   padding: 0;
-  font-size: 38px;
+  font-size: 34px;
   line-height: 1;
   color: #d9d4cf;
   transition: transform .1s;
@@ -278,7 +278,7 @@ h1, h2, h3 {
 
 .reviews {
   font-style: italic;
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
 }
 
@@ -306,7 +306,7 @@ h1, h2, h3 {
 .price {
   font-family: var(--price);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 37.5px;
   letter-spacing: -.03em;
   margin: 0;
   line-height: 1;
@@ -329,7 +329,7 @@ h1, h2, h3 {
 .label {
   display: block;
   font-style: italic;
-  font-size: 26px;
+  font-size: 23px;
   margin: 0 0 8px 2px;
 }
 
@@ -438,7 +438,7 @@ h1, h2, h3 {
   display: block;
   color: var(--ink);
   font-family: var(--body);
-  font-size: 27px;
+  font-size: 23px !important;
   font-style: italic;
   margin: 0 0 8px 2px;
   line-height: normal;
@@ -492,7 +492,7 @@ h1, h2, h3 {
   font-family: var(--display);
   font-weight: normal;
   letter-spacing: -.035em;
-  font-size: 38px;
+  font-size: 33px;
   line-height: 1;
   background: var(--cream);
   color: var(--ink);
@@ -525,7 +525,7 @@ h1, h2, h3 {
   display: inline-block;
   margin-top: 12px;
   font-style: italic;
-  font-size: 24px;
+  font-size: 23px;
   text-decoration: none;
 }
 
@@ -592,14 +592,12 @@ h1, h2, h3 {
 .related-card .card-name {
   display: block;
   width: 100%;
-
+  font-weight: bold;
   font-family: var(--body);
-  font-size: 28px;
-  letter-spacing: -.03em;
-
+  font-size: 24px;
+  letter-spacing: -.04em;
   text-align: center;
   margin-top: 6px;
-
   color: var(--ink);
   text-decoration: none;
 }
@@ -609,13 +607,11 @@ h1, h2, h3 {
 .related-card .card-price {
   display: block;
   width: 100%;
-
   font-family: var(--body);
-  font-size: 25px;
-
+  font-size: 23px;
+  letter-spacing: -.04em;
   text-align: center;
   margin-top: 2px;
-
   color: var(--ink);
   text-decoration: none;
 }
