@@ -18,7 +18,7 @@ body {
 .heading-text {
     font-family: 'Boldonse', Courier, monospace;
     color: #363636;
-    letter-spacing: 4%;
+    letter-spacing: 0.64px;
 }
 
 .navbar {
