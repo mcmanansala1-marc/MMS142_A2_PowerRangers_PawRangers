@@ -904,3 +904,13 @@ footer .heading-text {
     transform: none;
     box-shadow: none;
 }
+
+/* Navbar Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.navbar {
+    animation: fadeIn 0.8s ease-out;
+}

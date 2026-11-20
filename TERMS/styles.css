@@ -148,3 +148,13 @@ footer {
 .navbar .nav-link {
     font-size: 16px;
 }
+
+/* Navbar Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.navbar {
+    animation: fadeIn 0.8s ease-out;
+}
